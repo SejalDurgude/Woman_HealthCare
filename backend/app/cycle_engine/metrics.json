@@ -1,0 +1,19 @@
+{
+  "data_source": "synthetic",
+  "symptoms_only": {
+    "accuracy": 0.853,
+    "roc_auc": 0.889,
+    "brier": 0.114
+  },
+  "symptoms_plus_tests": {
+    "accuracy": 0.96,
+    "roc_auc": 0.994,
+    "brier": 0.033
+  },
+  "adaptive": {
+    "uncertain_cases": 48,
+    "mean_confidence_before": 0.671,
+    "mean_confidence_after": 0.78,
+    "share_with_higher_confidence": 0.75
+  }
+}
